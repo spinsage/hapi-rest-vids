@@ -6,7 +6,7 @@ const products = JSON.parse(productsJson);
 
 const server = hapi.Server({
     port: 8081,
-    host: 'localhost'
+    host: '0.0.0.0'
 });
 
 server.route({
